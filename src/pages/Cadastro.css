@@ -1,3 +1,10 @@
-.body{
+.divCadastro {
     background-color: aqua;
+    width: 80%;
+    margin-left: 260px;
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

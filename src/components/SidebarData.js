@@ -20,7 +20,8 @@ export const SidebarData = [
     {
         title: "Cadastro",
         icon: CadastroIcon,
-        link: <NavLink to="/cadastro">Cadastro</NavLink>
+        // link: <NavLink to="/cadastro">Cadastro</NavLink>
+        link: "/cadastro"
     },
     {
         title: "Relatorios",

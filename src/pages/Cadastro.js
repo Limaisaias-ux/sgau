@@ -3,7 +3,7 @@ import './Cadastro.css';
 
 function Cadastro() {
   return (
-    <div>Cadastro</div>
+    <div className='divCadastro'>Cadastro</div>
   )
 }
 
