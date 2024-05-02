@@ -1,10 +1,17 @@
 .divCadastro {
-    background-color: aqua;
     width: 80%;
-    margin-left: 260px;
     position: absolute;
-    
     display: flex;
-    align-items: center;
+}
+
+.fundo{
+    margin: 20px auto;
+    width: 88%;
+    height: auto;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border-style: ridge;
+    margin-top: 120px;
 }
