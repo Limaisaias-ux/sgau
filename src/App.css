@@ -1,0 +1,57 @@
+.App {
+    width: 100vw;
+    height: 100vw;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: #3F7924;
+}
+
+.sidebarList{
+    height: auto;
+    padding: 0;
+    width: 80%;
+}
+
+.sidebarList .row {
+    width: 99%;
+    height: 65px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarList .row:hover {
+    cursor: pointer;
+    background-color: #006400;
+}
+
+.sidebarList #active {
+    background-color: #006400;
+}
+
+.icon{
+    height: 24px;
+    width: 32px;
+    padding-right: 5px;
+}
+
+.row .icon{
+    display: grid;
+    place-items: center;
+}
+
+.row #title{
+    margin-left: 15px;
+}

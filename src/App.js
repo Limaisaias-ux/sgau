@@ -1,9 +1,16 @@
 import './App.css';
+import {Routes, Route} from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import Cadastro from './pages/Cadastro';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Bem-vindo(a) ao SGAU</h1>
+      <Routes>
+        <Route path='/cadastro'element={<Cadastro />}/>
+      </Routes>
+      <Sidebar />
     </div>
   );
 }
