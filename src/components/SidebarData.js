@@ -24,22 +24,22 @@ export const SidebarData = [
         link: "/cadastro"
     },
     {
-        title: "Relatorios",
+        title: "Relatórios",
         icon: RelatorioIcon,
         link: "/relatorios"
     },
     {
-        title: "Arvores",
+        title: "Árvores",
         icon: ArvoresIcon,
         link: "/arvores"
     },
     {
-        title: "Ocorrencias",
+        title: "Ocorrências",
         icon: OcorrenciasIcon,
-        link: "/ocorrencias"
+        link: "/Ocorrencias"
     },
     {
-        title: "Configuracoes",
+        title: "Configurações",
         icon: ConfIcon,
         link: "/configuracoes"
     }

@@ -88,7 +88,7 @@ const Cadastro = () => {
     <>
     <div className='divCadastroMain'>
       <div className='divCadastro'>
-        <img src={arvore} alt='Logo de uma árvore'></img>
+        <img className='arvorelogo' src={arvore} alt='Logo de uma árvore'></img>
         <h1>Cadastro de Árvores</h1>
       </div>
       <div className='fundo'>
