@@ -1,4 +1,5 @@
 import React from 'react';
+import arvore from '../img/arvore.png';
 import './Cadastro.css';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -87,6 +88,7 @@ const Cadastro = () => {
     <>
     <div className='divCadastroMain'>
       <div className='divCadastro'>
+        <img src={arvore} alt='Logo de uma árvore'></img>
         <h1>Cadastro de Árvores</h1>
       </div>
       <div className='fundo'>
