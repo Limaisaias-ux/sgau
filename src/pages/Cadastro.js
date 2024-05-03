@@ -100,20 +100,18 @@ const Cadastro = () => {
         <Form>
           <div>
             <label>Espécie</label>
-            <Field type="text" name="especie" />
+            <Field className="campform" type="text" name="especie" />
             <ErrorMessage name="especie" />
           </div>
           <div>
             <label>Latitude</label>
             <Field type="text" name="latitude" />
             <ErrorMessage name="latitude" />
-          </div>
-          <div>
+
             <label>Longitude</label>
             <Field type="text" name="longitude" />
             <ErrorMessage name="longitude" />
-          </div>
-          <div>
+
             <label>Diâmetro da Copa</label>
             <Field type="text" name="diametro_copa" />
             <ErrorMessage name="diametro_copa" />
@@ -122,13 +120,11 @@ const Cadastro = () => {
             <label>Altura Média</label>
             <Field type="text" name="altura_media" />
             <ErrorMessage name="altura_media" />
-          </div>
-          <div>
+
             <label>Largura da Calçada</label>
             <Field type="text" name="largura_calcada" />
             <ErrorMessage name="largura_calcada" />
-          </div>
-          <div>
+
             <label>Pavimento</label>
             <Field as="select" name="pavimento">
               <option value="">Selecione</option>
@@ -142,13 +138,11 @@ const Cadastro = () => {
             <label>Largura da Via Pública</label>
             <Field type="text" name="largura_via_publica" />
             <ErrorMessage name="largura_via_publica" />
-          </div>
-          <div>
+
             <label>Fluxo de Veículos</label>
             <Field type="text" name="fluxo_veiculos" />
             <ErrorMessage name="fluxo_veiculos" />
-          </div>
-          <div>
+
             <label>Passagem de Pedestre</label>
             <Field type="text" name="passagem_pedestre" />
             <ErrorMessage name="passagem_pedestre" />
@@ -167,8 +161,7 @@ const Cadastro = () => {
               <option value="Telefonica">Telefônica</option>
             </Field>
             <ErrorMessage name="rede_eletrica" />
-          </div>
-          <div>
+
             <label>Elementos Próximos</label>
             <Field as="select" name="elementos_proximos">
               <option value="">Selecione</option>
@@ -177,15 +170,14 @@ const Cadastro = () => {
               <option value="Telefonica">Telefônica</option>
             </Field>
             <ErrorMessage name="elementos_proximos" />
-          </div>
-          <div>
+
             <label>Tipo de Sistema Radicular</label>
             <Field type="text" name="tipo_sistema_radicular" />
             <ErrorMessage name="tipo_sistema_radicular" />
           </div>
           <div>
             <label>Afloramento</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="afloramento" value="Sim" />
                 Sim
@@ -199,7 +191,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Danos no Passeio</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="danos_passeio" value="Sim" />
                 Sim
@@ -213,7 +205,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Projeção das Raízes</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="projecao_raizes" value="Sim" />
                 Sim
@@ -232,7 +224,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Cavidade</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="cavidade" value="Sim" />
                 Sim
@@ -246,7 +238,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Termitas</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="termitas" value="Sim" />
                 Sim
@@ -260,7 +252,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Coleóbrocas</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="coleobrocas" value="Sim" />
                 Sim
@@ -274,7 +266,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Lesão</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="lesao" value="Sim" />
                 Sim
@@ -288,7 +280,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Declínio</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="declinio" value="Sim" />
                 Sim
@@ -302,7 +294,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Micélios</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="micelios" value="Sim" />
                 Sim
@@ -316,7 +308,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Anelamento</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="anelamento" value="Sim" />
                 Sim
@@ -330,7 +322,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Necrose</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="necrose" value="Sim" />
                 Sim
@@ -344,7 +336,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Formigas</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="formigas" value="Sim" />
                 Sim
@@ -358,7 +350,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Fungos</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="fungos" value="Sim" />
                 Sim
@@ -377,7 +369,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Compromete Condição da Árvore</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="compromete_condicao_arvore" value="Sim" />
                 Sim
@@ -391,7 +383,7 @@ const Cadastro = () => {
           </div>
           <div>
             <label>Monitorar</label>
-            <div>
+            <div className='escolha'>
               <label>
                 <Field type="radio" name="monitorar" value="Sim" />
                 Sim

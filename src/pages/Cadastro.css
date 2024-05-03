@@ -2,7 +2,7 @@
     border: solid red 1px;
     width: 80%;
     margin-left: 120px;
-    margin-top: 210px;
+    margin-top: 450px;
 
     position: absolute;
     top: 50%;
@@ -29,4 +29,35 @@
     height: 62px;
     width: 62px;
     margin-right: 5px;
+}
+
+.campform{
+    width: 85%;
+    padding: 8px ;
+    background-color: #808080;
+    margin-left: 5px;
+}
+
+input{
+    margin: 0 25px 0 10px;
+    border-radius: 5px;
+
+}
+
+form > div {
+    margin-bottom: 18px;
+}
+
+label{
+    background-color: rgb(143, 188, 143);
+    padding: 5px;
+    border-radius: 10px 10px ;
+}
+
+.escolha{
+    margin-top: 10px;
+}
+
+.escolha > label{
+    background-color: white;
 }
