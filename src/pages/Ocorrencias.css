@@ -2,3 +2,11 @@
     border: solid red 1px;
     width: 50%;
 }
+
+.divbocorrencia{
+    width: 80%;
+    position: absolute;
+    display: flex;
+    margin-left: 280px;
+    margin-top: 10px;
+}

@@ -36,7 +36,7 @@ export const SidebarData = [
     {
         title: "Ocorrências",
         icon: OcorrenciasIcon,
-        link: "/Ocorrencias"
+        link: "/ocorrencias"
     },
     {
         title: "Configurações",

@@ -86,11 +86,11 @@ const Cadastro = () => {
 
   return (
     <>
-    <div className='divCadastroMain'>
       <div className='divCadastro'>
-        <img className='arvorelogo' src={arvore} alt='Logo de uma árvore'></img>
+      <img className='arvorelogo' src={arvore} alt='Logo de uma árvore'></img>
         <h1>Cadastro de Árvores</h1>
       </div>
+    <div className='divCadastroMain'>
       <div className='fundo'>
       <Formik
         initialValues={initialValues}
@@ -124,15 +124,10 @@ const Cadastro = () => {
             <label>Largura da Calçada</label>
             <Field type="text" name="largura_calcada" />
             <ErrorMessage name="largura_calcada" />
-
-            <label>Pavimento</label>
-            <Field as="select" name="pavimento">
-              <option value="">Selecione</option>
-              <option value="Cimento">Cimento</option>
-              <option value="Bloquete">Bloquete</option>
-              <option value="Ceramico">Cerâmico</option>
-            </Field>
-            <ErrorMessage name="pavimento" />
+             
+            <label>Tipo de Sistema Radicular</label>
+            <Field type="text" name="tipo_sistema_radicular" />
+            <ErrorMessage name="tipo_sistema_radicular" />
           </div>
           <div>
             <label>Largura da Via Pública</label>
@@ -151,8 +146,16 @@ const Cadastro = () => {
             <label>Fluxo de Pedestres</label>
             <Field type="text" name="fluxo_pedestres" />
             <ErrorMessage name="fluxo_pedestres" />
+
+            <label>Condição Fitossanitária</label>
+            <Field type="text" name="condicao_fitossanitaria" />
+            <ErrorMessage name="condicao_fitossanitaria" />
+
+            <label>Local Afetado</label>
+            <Field type="text" name="local_afetado" />
+            <ErrorMessage name="local_afetado" />
           </div>
-          <div>
+          <div className='opcao'>
             <label>Rede Elétrica</label>
             <Field as="select" name="rede_eletrica">
               <option value="">Selecione</option>
@@ -171,9 +174,14 @@ const Cadastro = () => {
             </Field>
             <ErrorMessage name="elementos_proximos" />
 
-            <label>Tipo de Sistema Radicular</label>
-            <Field type="text" name="tipo_sistema_radicular" />
-            <ErrorMessage name="tipo_sistema_radicular" />
+            <label>Pavimento</label>
+            <Field as="select" name="pavimento">
+              <option value="">Selecione</option>
+              <option value="Cimento">Cimento</option>
+              <option value="Bloquete">Bloquete</option>
+              <option value="Ceramico">Cerâmico</option>
+            </Field>
+            <ErrorMessage name="pavimento" />
           </div>
           <div>
             <label>Afloramento</label>
@@ -188,8 +196,7 @@ const Cadastro = () => {
               </label>
             </div>
             <ErrorMessage name="afloramento" />
-          </div>
-          <div>
+
             <label>Danos no Passeio</label>
             <div className='escolha'>
               <label>
@@ -202,8 +209,7 @@ const Cadastro = () => {
               </label>
             </div>
             <ErrorMessage name="danos_passeio" />
-          </div>
-          <div>
+
             <label>Projeção das Raízes</label>
             <div className='escolha'>
               <label>
@@ -216,11 +222,6 @@ const Cadastro = () => {
               </label>
             </div>
             <ErrorMessage name="projecao_raizes" />
-          </div>
-          <div>
-            <label>Condição Fitossanitária</label>
-            <Field type="text" name="condicao_fitossanitaria" />
-            <ErrorMessage name="condicao_fitossanitaria" />
           </div>
           <div>
             <label>Cavidade</label>
@@ -363,11 +364,6 @@ const Cadastro = () => {
             <ErrorMessage name="fungos" />
           </div>
           <div>
-            <label>Local Afetado</label>
-            <Field type="text" name="local_afetado" />
-            <ErrorMessage name="local_afetado" />
-          </div>
-          <div>
             <label>Compromete Condição da Árvore</label>
             <div className='escolha'>
               <label>
@@ -399,13 +395,11 @@ const Cadastro = () => {
             <label>Observações</label>
             <Field type="text" name="observacoes" />
             <ErrorMessage name="observacoes" />
-          </div>
-          <div>
+          
             <label>Data de Cadastro</label>
             <Field type="date" name="data_cadastro" />
             <ErrorMessage name="data_cadastro" />
-          </div>
-          <div>
+
             <label>Responsável Técnico</label>
             <Field type="text" name="responsavel_tecnico" />
             <ErrorMessage name="responsavel_tecnico" />
