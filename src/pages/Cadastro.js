@@ -124,16 +124,17 @@ const Cadastro = () => {
             <label>Largura da Calçada</label>
             <Field type="text" name="largura_calcada" />
             <ErrorMessage name="largura_calcada" />
-             
+          </div>
+          <div>
             <label>Tipo de Sistema Radicular</label>
             <Field type="text" name="tipo_sistema_radicular" />
             <ErrorMessage name="tipo_sistema_radicular" />
-          </div>
-          <div>
+
             <label>Largura da Via Pública</label>
             <Field type="text" name="largura_via_publica" />
             <ErrorMessage name="largura_via_publica" />
-
+          </div>
+          <div>
             <label>Fluxo de Veículos</label>
             <Field type="text" name="fluxo_veiculos" />
             <ErrorMessage name="fluxo_veiculos" />
@@ -150,7 +151,8 @@ const Cadastro = () => {
             <label>Condição Fitossanitária</label>
             <Field type="text" name="condicao_fitossanitaria" />
             <ErrorMessage name="condicao_fitossanitaria" />
-
+          </div>
+          <div>
             <label>Local Afetado</label>
             <Field type="text" name="local_afetado" />
             <ErrorMessage name="local_afetado" />
@@ -404,7 +406,7 @@ const Cadastro = () => {
             <Field type="text" name="responsavel_tecnico" />
             <ErrorMessage name="responsavel_tecnico" />
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit">Cadastrar</button>
         </Form>
       </Formik>
     </div>

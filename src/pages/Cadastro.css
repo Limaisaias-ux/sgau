@@ -57,7 +57,7 @@ label{
 }
 
 .escolha{
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
 }
 
 .escolha > label{
@@ -69,5 +69,17 @@ label{
 }
 
 .opcao > select{
-    margin-left: 5px;
+    margin: 0 25px 0 5px;
+}
+
+form > button {
+    background-color: rgb(143, 188, 143);
+    border-radius: 18px;
+    padding: 10px 15px;
+    font-size: 1.5em;
+}
+
+form > button:hover {
+    cursor: pointer;
+    background-color: rgb(80, 134, 80);
 }
