@@ -99,67 +99,67 @@ const Cadastro = () => {
       >
         <Form>
           <div>
-            <label>Espécie</label>
+            <label className='calabel'>Espécie</label>
             <Field className="campform" type="text" name="especie" />
             <ErrorMessage name="especie" />
           </div>
           <div>
-            <label>Latitude</label>
-            <Field type="text" name="latitude" />
+            <label className='calabel'>Latitude</label>
+            <Field className='camform' type="text" name="latitude" />
             <ErrorMessage name="latitude" />
 
-            <label>Longitude</label>
-            <Field type="text" name="longitude" />
+            <label className='calabel'>Longitude</label>
+            <Field className='camform' type="text" name="longitude" />
             <ErrorMessage name="longitude" />
 
-            <label>Diâmetro da Copa</label>
-            <Field type="text" name="diametro_copa" />
+            <label className='calabel'>Diâmetro da Copa</label>
+            <Field className='camform' type="text" name="diametro_copa" />
             <ErrorMessage name="diametro_copa" />
           </div>
           <div>
-            <label>Altura Média</label>
-            <Field type="text" name="altura_media" />
+            <label className='calabel'>Altura Média</label>
+            <Field className='camform' type="text" name="altura_media" />
             <ErrorMessage name="altura_media" />
 
-            <label>Largura da Calçada</label>
-            <Field type="text" name="largura_calcada" />
+            <label className='calabel'>Largura da Calçada</label>
+            <Field className='camform' type="text" name="largura_calcada" />
             <ErrorMessage name="largura_calcada" />
           </div>
           <div>
-            <label>Tipo de Sistema Radicular</label>
-            <Field type="text" name="tipo_sistema_radicular" />
+            <label className='calabel'>Tipo de Sistema Radicular</label>
+            <Field className='camform' type="text" name="tipo_sistema_radicular" />
             <ErrorMessage name="tipo_sistema_radicular" />
 
-            <label>Largura da Via Pública</label>
-            <Field type="text" name="largura_via_publica" />
+            <label className='calabel'>Largura da Via Pública</label>
+            <Field className='camform' type="text" name="largura_via_publica" />
             <ErrorMessage name="largura_via_publica" />
           </div>
           <div>
-            <label>Fluxo de Veículos</label>
-            <Field type="text" name="fluxo_veiculos" />
+            <label className='calabel'>Fluxo de Veículos</label>
+            <Field className='camform' type="text" name="fluxo_veiculos" />
             <ErrorMessage name="fluxo_veiculos" />
 
-            <label>Passagem de Pedestre</label>
-            <Field type="text" name="passagem_pedestre" />
+            <label className='calabel'>Passagem de Pedestre</label>
+            <Field className='camform' type="text" name="passagem_pedestre" />
             <ErrorMessage name="passagem_pedestre" />
           </div>
           <div>
-            <label>Fluxo de Pedestres</label>
-            <Field type="text" name="fluxo_pedestres" />
+            <label className='calabel'>Fluxo de Pedestres</label>
+            <Field className='camform' type="text" name="fluxo_pedestres" />
             <ErrorMessage name="fluxo_pedestres" />
 
-            <label>Condição Fitossanitária</label>
-            <Field type="text" name="condicao_fitossanitaria" />
+            <label className='calabel'>Condição Fitossanitária</label>
+            <Field className='camform' type="text" name="condicao_fitossanitaria" />
             <ErrorMessage name="condicao_fitossanitaria" />
           </div>
           <div>
-            <label>Local Afetado</label>
-            <Field type="text" name="local_afetado" />
+            <label className='calabel'>Local Afetado</label>
+            <Field className='camform' type="text" name="local_afetado" />
             <ErrorMessage name="local_afetado" />
           </div>
           <div className='opcao'>
-            <label>Rede Elétrica</label>
-            <Field as="select" name="rede_eletrica">
+            <label className='calabel'>Rede Elétrica</label>
+            <Field className='camform' as="select" name="rede_eletrica">
               <option value="">Selecione</option>
               <option value="Primaria">Primária</option>
               <option value="Secundaria">Secundária</option>
@@ -167,8 +167,8 @@ const Cadastro = () => {
             </Field>
             <ErrorMessage name="rede_eletrica" />
 
-            <label>Elementos Próximos</label>
-            <Field as="select" name="elementos_proximos">
+            <label className='calabel'>Elementos Próximos</label>
+            <Field className='camform' as="select" name="elementos_proximos">
               <option value="">Selecione</option>
               <option value="Boca de Lobo">Boca de Lobo</option>
               <option value="Poste de Energia">Poste de Energia</option>
@@ -176,8 +176,8 @@ const Cadastro = () => {
             </Field>
             <ErrorMessage name="elementos_proximos" />
 
-            <label>Pavimento</label>
-            <Field as="select" name="pavimento">
+            <label className='calabel'>Pavimento</label>
+            <Field className='camform' as="select" name="pavimento">
               <option value="">Selecione</option>
               <option value="Cimento">Cimento</option>
               <option value="Bloquete">Bloquete</option>
@@ -186,224 +186,224 @@ const Cadastro = () => {
             <ErrorMessage name="pavimento" />
           </div>
           <div>
-            <label>Afloramento</label>
+            <label className='calabel'>Afloramento</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="afloramento" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="afloramento" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="afloramento" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="afloramento" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="afloramento" />
 
-            <label>Danos no Passeio</label>
+            <label className='calabel'>Danos no Passeio</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="danos_passeio" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="danos_passeio" value="Sim" />
                 Sim
               </label>
-              <label>
+              <label className='calabel'>
                 <Field type="radio" name="danos_passeio" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="danos_passeio" />
 
-            <label>Projeção das Raízes</label>
+            <label className='calabel'>Projeção das Raízes</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="projecao_raizes" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="projecao_raizes" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="projecao_raizes" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="projecao_raizes" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="projecao_raizes" />
           </div>
           <div>
-            <label>Cavidade</label>
+            <label className='calabel'>Cavidade</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="cavidade" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="cavidade" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="cavidade" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="cavidade" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="cavidade" />
           </div>
           <div>
-            <label>Termitas</label>
+            <label className='calabel'>Termitas</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="termitas" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="termitas" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="termitas" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="termitas" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="termitas" />
           </div>
           <div>
-            <label>Coleóbrocas</label>
+            <label className='calabel'>Coleóbrocas</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="coleobrocas" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="coleobrocas" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="coleobrocas" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="coleobrocas" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="coleobrocas" />
           </div>
           <div>
-            <label>Lesão</label>
+            <label> className='calabel'Lesão</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="lesao" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="lesao" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="lesao" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="lesao" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="lesao" />
           </div>
           <div>
-            <label>Declínio</label>
+            <label className='calabel'>Declínio</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="declinio" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="declinio" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="declinio" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="declinio" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="declinio" />
           </div>
           <div>
-            <label>Micélios</label>
+            <label className='calabel'>Micélios</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="micelios" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="micelios" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="micelios" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="micelios" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="micelios" />
           </div>
           <div>
-            <label>Anelamento</label>
+            <label className='calabel'>Anelamento</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="anelamento" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="anelamento" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="anelamento" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="anelamento" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="anelamento" />
           </div>
           <div>
-            <label>Necrose</label>
+            <label className='calabel'>Necrose</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="necrose" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="necrose" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="necrose" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="necrose" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="necrose" />
           </div>
           <div>
-            <label>Formigas</label>
+            <label className='calabel'>Formigas</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="formigas" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="formigas" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="formigas" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="formigas" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="formigas" />
           </div>
           <div>
-            <label>Fungos</label>
+            <label className='calabel'>Fungos</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="fungos" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="fungos" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="fungos" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="fungos" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="fungos" />
           </div>
           <div>
-            <label>Compromete Condição da Árvore</label>
+            <label className='calabel'>Compromete Condição da Árvore</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="compromete_condicao_arvore" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="compromete_condicao_arvore" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="compromete_condicao_arvore" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="compromete_condicao_arvore" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="compromete_condicao_arvore" />
           </div>
           <div>
-            <label>Monitorar</label>
+            <label className='calabel'>Monitorar</label>
             <div className='escolha'>
-              <label>
-                <Field type="radio" name="monitorar" value="Sim" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="monitorar" value="Sim" />
                 Sim
               </label>
-              <label>
-                <Field type="radio" name="monitorar" value="Não" />
+              <label className='calabel'>
+                <Field className='camform' type="radio" name="monitorar" value="Não" />
                 Não
               </label>
             </div>
             <ErrorMessage name="monitorar" />
           </div>
           <div>
-            <label>Observações</label>
-            <Field type="text" name="observacoes" />
+            <label className='calabel'>Observações</label>
+            <Field className='camform' type="text" name="observacoes" />
             <ErrorMessage name="observacoes" />
           
-            <label>Data de Cadastro</label>
-            <Field type="date" name="data_cadastro" />
+            <label className='calabel'>Data de Cadastro</label>
+            <Field className='camform' type="date" name="data_cadastro" />
             <ErrorMessage name="data_cadastro" />
 
-            <label>Responsável Técnico</label>
-            <Field type="text" name="responsavel_tecnico" />
+            <label className='calabel'>Responsável Técnico</label>
+            <Field className='camform' type="text" name="responsavel_tecnico" />
             <ErrorMessage name="responsavel_tecnico" />
           </div>
           <button type="submit">Cadastrar</button>

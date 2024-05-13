@@ -1,0 +1,60 @@
+.retopo{
+    width: 80%;
+    position: absolute;
+    display: flex;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.folhalogo{
+    height: 62px;
+    width: 62px;
+    margin-right: 5px;
+}
+
+.reladrado{
+    width: 50%;
+    margin-left: 120px;
+    margin-top: 10%;
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.pqs{
+    background-color: #E4E4E4;
+}
+
+.reput{
+    
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #E4E4E4;
+    border: 0 none;
+    border-radius: 10px;
+    display: block;
+}
+
+.caixar{
+    width: 100%;
+    border: 1px solid;
+    border-color: black;
+    background-color: #FFFAFA;
+}
+
+.reforms{
+    position: relative;
+    left: 40%;
+}
+
+.brela{
+    position: relative;
+    left: 45%;
+    margin-top: 10px;
+    background-color: #109115;
+    
+}
+
