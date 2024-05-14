@@ -25,12 +25,21 @@
 
 .pqs{
     background-color: #E4E4E4;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+
+.relabel {
+    margin-left: 250px;
+    margin-top: 14px;
 }
 
 .reput{
-    
+
     padding: 8px;
     margin: 8px 0;
+    margin-right: 200px;
     box-sizing: border-box;
     background-color: #E4E4E4;
     border: 0 none;
@@ -47,14 +56,20 @@
 
 .reforms{
     position: relative;
-    left: 40%;
+    margin: 5%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .brela{
     position: relative;
-    left: 45%;
-    margin-top: 10px;
+    left: 38%;
+    margin: 17px;
+    margin-top: -10px;
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: none;
     background-color: #109115;
-    
+    color: white;
 }
-
